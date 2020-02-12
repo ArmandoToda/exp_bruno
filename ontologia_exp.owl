@@ -35,6 +35,37 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/caedA5/ontology/temIdeb -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/caedA5/ontology/temIdeb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/caedA5/ontology/temIdeb"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/caedA5/ontology/#Estado"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/caedA5/ontology/temIdeb"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/caedA5/ontology/#Ideb"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
